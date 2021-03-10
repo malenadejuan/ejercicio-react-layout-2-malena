@@ -6,21 +6,21 @@ function App() {
       <Row as="main">
         <Col xs={8} as="section">
           <Row as="ul" className="list-unstyled">
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton gt30">Equipos asignados a mayores de 30</Button></Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton tarragona">Equipos asignados a personas de Tarragona</Button>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="gt30">Equipos asignados a mayores de 30</Button></Col>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="tarragona">Equipos asignados a personas de Tarragona</Button>
             </Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton provincias">Provincias donde hay equipos</Button></Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton puestos">Puestos de trabajadores con equipo</Button></Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton edad-media">Media de edad de trabajadores</Button></Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton orden-edad">Equipos ordenados por edad</Button></Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton sobremesa">Equipos de tipo sobremesa</Button></Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton trabajadores-portatil">Trabajadores con equipo
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="provincias">Provincias donde hay equipos</Button></Col>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="puestos">Puestos de trabajadores con equipo</Button></Col>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="edad-media">Media de edad de trabajadores</Button></Col>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="orden-edad">Equipos ordenados por edad</Button></Col>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="sobremesa">Equipos de tipo sobremesa</Button></Col>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="trabajadores-portatil">Trabajadores con equipo
           portátil</Button></Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton equipos-tipo">Equipos organizados por tipo</Button></Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton portatiles-tarragona">Equipos portátiles asignados en
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="equipos-tipo">Equipos organizados por tipo</Button></Col>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="portatiles-tarragona">Equipos portátiles asignados en
           Tarragona</Button>
             </Col>
-            <Col sm={4} lg={3} as="li"><Button variant="warning" className="boton resumen">Resumen de equipos asignados</Button></Col>
+            <Col sm={4} lg={3} as="li"><Button variant="warning" className="resumen">Resumen de equipos asignados</Button></Col>
           </Row>
         </Col>
         <Col xs={4} as="aside">
